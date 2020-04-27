@@ -42,5 +42,14 @@ describe('Campaigns', () => {
         const isApprover = await campaign.methods.approvers(accounts[1]).call();
         assert(isApprover);
     });
+
+    it('requires a minimum contribution', async() => {
+        try {
+            await campaign.methods.contribute().send({ from: accounts[2], value: '50' });
+            assert(false)
+        } catch (e) {
+            assert.ok(e);
+        }
+    })
 });
 
