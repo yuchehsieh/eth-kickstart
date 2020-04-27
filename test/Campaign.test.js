@@ -26,9 +26,21 @@ beforeEach(async () => {
    campaign = await new web3.eth.Contract(JSON.parse(compiledCampaign.interface), campaignAddress);
 });
 
-describe('a factory contract', () => {
-    it('can deploy', () => {
+describe('Campaigns', () => {
+    it('deploys a factory and a campaign', () => {
         assert.ok(factory.options.address);
+        assert.ok(campaign.options.address);
+    });
+
+    it('marks the caller as the campaign manager', async() => {
+        const manager = await campaign.methods.manager().call();
+        assert.equal(manager, accounts[0])
+    });
+
+    it('allows people to contribute money and marks them as approvers', async() => {
+        await campaign.methods.contribute().send({ from: accounts[1], value: '150' });
+        const isApprover = await campaign.methods.approvers(accounts[1]).call();
+        assert(isApprover);
     });
 });
 
