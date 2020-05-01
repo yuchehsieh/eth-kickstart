@@ -31,10 +31,9 @@ class CampaignIndex extends Component {
     render() {
         return (
             <Layout>
-                <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
                 <div>
                     <h3>Open Campaigns</h3>
-                    <Button content="Create Campaign" icon="add circle" floated="right" primary/>
+                    <Button content="Create Campaign" icon="add circle" floated="right" primary />
                     {this.renderCampaigns()}
                 </div>
             </Layout>
