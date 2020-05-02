@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import {Form, Button, Input, Message} from 'semantic-ui-react';
 import factory from '../../ethereum/factory';
 import web3 from '../../ethereum/web3';
+import { Router } from '../../routes';
 
 class CampaignNew extends Component {
 
@@ -25,6 +26,7 @@ class CampaignNew extends Component {
                  *  don't have to specify gas amount!
                  * **/
             });
+            Router.pushRoute('/');
         } catch (e) {
             this.setState({
                 errorMessage: e.message
