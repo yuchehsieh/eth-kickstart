@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import Layout from "../../../components/Layout";
-import {Button} from 'semantic-ui-react';
+import {Button, Table} from 'semantic-ui-react';
 import { Link } from '../../../routes';
-import Campagn from '../../../ethereum/campaign';
+import Campaign from '../../../ethereum/campaign';
+import RequestRow from "../../../components/RequestRow";
 
 class Requests extends Component {
     static async getInitialProps(props) {
         const address = props.query.address;
-        const campaign = Campagn(address);
+        const campaign = Campaign(address);
         const requestCounts = await campaign.methods.getRequestCount().call();
+        const approversCount = await campaign.methods.approversCount().call();
 
         const requests = await Promise.all(
             Array(parseInt(requestCounts)).fill().map((element, index) => {
@@ -19,11 +21,22 @@ class Requests extends Component {
         return {
             address,
             requests,
-            requestCounts
+            requestCounts,
+            approversCount
         };
     }
 
+
+    renderRow() {
+        return this.props.requests.map((request, index) => {
+            return <RequestRow request={request} key={index} address={this.props.address} id={index} approversCount={this.props.approversCount}/>
+        })
+    }
+
     render() {
+
+        const { Header, HeaderCell, Row, Body } = Table;
+
         return (
             <Layout>
                 <h3>Requests</h3>
@@ -32,6 +45,24 @@ class Requests extends Component {
                         <Button primary icon="add circle" content="New Request" />
                     </a>
                 </Link>
+                <Table>
+                    <Header>
+                        <Row>
+                            <HeaderCell>ID</HeaderCell>
+                            <HeaderCell>Description</HeaderCell>
+                            <HeaderCell>Amount</HeaderCell>
+                            <HeaderCell>Recipient</HeaderCell>
+                            <HeaderCell>Approval Count</HeaderCell>
+                            <HeaderCell>Approve</HeaderCell>
+                            <HeaderCell>Finalize</HeaderCell>
+                        </Row>
+                    </Header>
+
+                    <Body>
+                        {this.renderRow()}
+                    </Body>
+
+                </Table>
             </Layout>
         );
     }
