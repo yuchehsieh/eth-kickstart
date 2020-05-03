@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da861f23-e666-4767-8118-b0553e35ece0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/campaigns/show.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADDRESS" beforeDir="false" afterPath="$PROJECT_DIR$/ADDRESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/build/Campaign.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/build/Campaign.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/build/CampaignFactory.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/build/CampaignFactory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/factory.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,7 @@
       <workItem from="1587979425252" duration="2816000" />
       <workItem from="1588034264293" duration="12686000" />
       <workItem from="1588291785496" duration="8642000" />
-      <workItem from="1588381654792" duration="4042000" />
+      <workItem from="1588381654792" duration="5208000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ contract CampaignFactory {
         deployedCampaigns.push(newCampaign);
     }
 
-    function getDeployedCampaigns() public view returns(address[]) {
+    function getDeployedCampaigns() public view returns (address[]) {
         return deployedCampaigns;
     }
 }
@@ -41,17 +41,18 @@ contract Campaign {
     function contribute() public payable {
         require(msg.value > minimumContribution);
 
-        approvers[msg.sender] = true; // assign a value of key (just like JS)
+        approvers[msg.sender] = true;
+        // assign a value of key (just like JS)
         approversCount++;
     }
 
     function createRequest(string description, uint value, address recipient) public restricted {
         Request memory newRequest = Request({
-            description: description,
-            value: value,
-            recipient: recipient,
-            complete: false,
-            approvalCount: 0
+            description : description,
+            value : value,
+            recipient : recipient,
+            complete : false,
+            approvalCount : 0
             });
 
         // equal to:
@@ -82,4 +83,21 @@ contract Campaign {
         request.complete = true;
     }
 
+    function getSummary() public view returns (
+        uint, uint, uint, uint, address
+    ) {
+        return (
+            minimumContribution,
+            this.balance,
+            requests.length,
+            approversCount,
+            manager
+        );
+    }
+
+    function getRequestCount() public view returns (uint) {
+        return (
+            requests.length
+        );
+    }
 }
