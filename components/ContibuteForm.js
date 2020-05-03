@@ -14,7 +14,7 @@ class ContibuteForm extends Component {
 
     async onSubmit(e) {
         e.preventDefault();
-        this.setState({loading: true});
+        this.setState({loading: true, errorMessage: ''});
         const campaign = Campaign(this.props.address);
 
         try {
