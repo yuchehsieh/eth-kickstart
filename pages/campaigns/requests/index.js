@@ -63,6 +63,7 @@ class Requests extends Component {
                     </Body>
 
                 </Table>
+                <p>Found {this.props.requestCounts} Requests.</p>
             </Layout>
         );
     }
