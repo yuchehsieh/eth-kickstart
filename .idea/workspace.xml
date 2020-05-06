@@ -2,7 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da861f23-e666-4767-8118-b0553e35ece0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/campaigns/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/campaigns/requests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/campaigns/requests/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/campaigns/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/HDbKWR-R2nPxDeFBn3YKO/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/campaigns/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/campaigns/requests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/campaigns/requests/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/campaigns/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/Ks6wLJYmBmgP_20XsecUT/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/10d95e91073ad458394231e38ad660443a6178dc.73b7e7a988d99f79248a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/10d95e91073ad458394231e38ad660443a6178dc.73b7e7a988d99f79248a.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/13ff4405e89c0110ff36eae846edefae37970482.311952db0464231b9a12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/369dc6b02761b66eaffb0f1091f1547feb7c5acf.cee0fbd6f9e5f37d5c43.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/402de512325de9eea008708e23d1aac0849a7206.50920d720f55706ebb63.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/5e2ff2f9a815e5c04035099a875ebaa1ad5051f3.73b7e7a988d99f79248a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/5e2ff2f9a815e5c04035099a875ebaa1ad5051f3.73b7e7a988d99f79248a.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/a67d93acf2275d48c716dd0b56158d384cc5291f.5d5f82c9a0198b069e49.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/b5676e49c80991d69bf5824d9b0a4a74f23df471.5d5f82c9a0198b069e49.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/commons.3bd1d7b7178c945052fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/e921c34070ed07f98e07f29e0d143b487002124d.d16a8a8de1949ef733e9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/f96bda60.58471afdb7a4755dfa0b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/framework.619a4f70c1d4d3a29cbc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/framework.619a4f70c1d4d3a29cbc.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/css/cfb837a2694c3ad390b0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/css/d47547e1059dac113368.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/dll/dll_37c503a3d729cd569d30.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/dll/dll_37c503a3d729cd569d30.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/_app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/_error.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/campaigns/show.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/development/pages/next/dist/pages/_error.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/brand-icons.278156e41e0ad908cf7f841b17130502.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/brand-icons.65a2fb6d9aaa164b41a039302093995b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/brand-icons.6729d29753e000c17489ed43135ba8d5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/brand-icons.cac87dc00c87a5d74711d0276713808a.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/brand-icons.d68fa3e67dbb653a13cec44b1bcabcfe.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/flags.99f63ae7a743f21ab30847ed06a698d9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/icons.38c6d8bab26db77d8c806813e1497763.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/icons.425399f81e4ce7cbd967685402ba0260.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/icons.62d9dae4e0040e81c980950003df0e07.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/icons.a01e3f2d6c83dc3aee175e2482b3f777.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/icons.c656b8caa454ed19b9a2ef7f4f5b8fea.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/outline-icons.5367103510b27b78482794590e1ce3b0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/outline-icons.687a4990ea22bb1a49d469a5d9319790.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/outline-icons.752905fa5edf21fc52a10a0c1ca9c7a4.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/outline-icons.9c4845b4b41ef40a22faee76144fa816.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/outline-icons.ddae9b1ba9b0b42f58809904b0b21349.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/amp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/amp.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/main-83118eccf4d84fa16c26.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/polyfills-618d5acb57dadd2011d7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/polyfills.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/react-refresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/react-refresh.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/webpack-c212667a5f965e81e004.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/webpack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/runtime/webpack.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/webpack/41d1af0ce29a396b4ed4.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/webpack/7382ade992c1a66295d2.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/webpack/987a9c4d931389e57ce5.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/webpack/aac76f8a27a7468546bb.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/campaigns/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/campaigns/requests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/campaigns/requests/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/campaigns/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/campaigns/requests/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/campaigns/requests/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/campaigns/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/campaigns/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +155,7 @@
       <workItem from="1588598223363" duration="948000" />
       <workItem from="1588657372113" duration="1478000" />
       <workItem from="1588680760340" duration="1004000" />
+      <workItem from="1588732567329" duration="3229000" />
     </task>
     <servers />
   </component>

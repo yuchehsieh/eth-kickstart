@@ -9,6 +9,10 @@ import {Link} from '../../routes';
 
 class CampaignShow extends Component {
     static async getInitialProps(props) {
+        const address = props.query.hasOwnProperty('address') ;
+        if(!address) {
+            return {};
+        }
         const campaign = await Campaign(props.query.address);
 
         const summary = await campaign.methods.getSummary().call();
@@ -57,7 +61,7 @@ class CampaignShow extends Component {
                 description: 'Number of people who have already donated to this campaign',
             },
             {
-                header: web3.utils.fromWei(balance, 'ether'),
+                header: web3.utils.fromWei(balance ?? '0', 'ether'),
                 meta: 'Campaign Balance (ether)',
                 description: 'The balance is how much money this campaign has left to spend.',
             }
